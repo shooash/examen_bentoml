@@ -1,0 +1,17 @@
+service: src.service:Predictor
+description: "Predict the chance of admission of a student in a university"
+labels:
+  version: 1.0.0
+  owner: "DataScientest"
+  project: "Admissions Prediction"
+include:
+  - src/*.py
+  - data/
+models:
+  - 'admission_bayesianridge:latest'
+python:
+    packages:
+      - scikit-learn
+      - pandas
+      - bentoml
+      - pyjwt

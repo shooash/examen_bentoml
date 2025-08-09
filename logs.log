@@ -1,0 +1,16 @@
+2025-08-09 19:29:43,488 Save X_train to C:\Users\ashin\Documents\Dev\examen_bentoml\data\processed\X_train.csv
+2025-08-09 19:29:43,488 Save y_train to C:\Users\ashin\Documents\Dev\examen_bentoml\data\processed\y_train.csv
+2025-08-09 19:29:43,504 Save X_test to C:\Users\ashin\Documents\Dev\examen_bentoml\data\processed\X_test.csv
+2025-08-09 19:29:43,515 Save y_test to C:\Users\ashin\Documents\Dev\examen_bentoml\data\processed\y_test.csv
+2025-08-09 19:30:40,490 Training linear model...
+2025-08-09 19:30:40,490 Model trained.
+2025-08-09 19:30:40,506 Test done: metrics={'RMSE': 0.051013163286686335, 'MAE': 0.03777502436030507, 'R2': 0.8647356271630029}
+2025-08-09 19:31:52,089 Training linear model...
+2025-08-09 19:31:52,091 Model trained.
+2025-08-09 19:31:52,112 Test done: metrics={'RMSE': 0.051013163286686335, 'MAE': 0.03777502436030507, 'R2': 0.8647356271630029}
+2025-08-09 19:31:59,148 Model saved as: Model(tag="admission_bayesianridge:ybyyoytvi2xytlav")
+2025-08-09 19:46:09,690 Training linear model...
+2025-08-09 19:46:09,690 Model trained.
+2025-08-09 19:46:09,706 Test done: metrics={'RMSE': 0.051013163286686335, 'MAE': 0.03777502436030507, 'R2': 0.8647356271630029}
+2025-08-09 19:46:10,825 Model saved as: Model(tag="admission_bayesianridge:xqticgdvjcvxvlav")
+2025-08-09 20:11:06,110 BentoML service started...
